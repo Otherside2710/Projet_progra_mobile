@@ -3,7 +3,7 @@
 L'objectif de ce projet était de créer une liste de données provenant d'une API REST ( qui se trouve sur un serveur) 
 et d'afficher une seconde vue avec des détails sur l'élément de la liste sur lequel on a cliqué.
 
-![alt text]https://github.com/Otherside2710/Projet_progra_mobile/issues/
+https://user-images.githubusercontent.com/46956233/55027884-a46acf80-5006-11e9-86fe-5ee59721d7f4.jpg
 
 ## Ce qui a été réalisé : 
 - Mise en Place de Recyclerview
