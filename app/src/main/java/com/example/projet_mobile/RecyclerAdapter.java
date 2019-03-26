@@ -41,32 +41,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Myview
     }
 
 
-    class WordViewHolder extends RecyclerView.ViewHolder
-            implements View.OnClickListener {
-        public final TextView CountryItemView;
-        final RecyclerAdapter mAdapter;
-
-        public WordViewHolder(View itemView, RecyclerAdapter adapter) {
-            super(itemView);
-            CountryItemView = itemView.findViewById(R.id.textViewCountryName);
-            this.mAdapter = adapter;
-            itemView.setOnClickListener(this);
-
-        }
-
-        @Override
-        public void onClick(View view) {
-            int mposition = getLayoutPosition();
-
-            Country element = countryList.get(mposition);
-
-            Context context = view.getContext();
-            Intent intent = new Intent(context, Second_Activity.class);
-            context.startActivity(intent);
-            mAdapter.notifyDataSetChanged();
-        }
-    }
-
     public class MyviewHolder extends RecyclerView.ViewHolder {
 
         TextView textViewCountryName;
