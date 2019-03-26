@@ -22,4 +22,3 @@ m'obligeant à rester sur mon ordinateur fixe pour pouvoir coder). Ce fut très 
 
 ## Améliorations possible : 
 - Mettre les données en cache
-- 
