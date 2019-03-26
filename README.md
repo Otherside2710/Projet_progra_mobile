@@ -18,3 +18,7 @@ et d'afficher une seconde vue avec des détails sur l'élément de la liste sur 
 Que ce soit pour comprendre la syntaxe de java, comprendre comment fonctionne l'API ou simplement résoudre les bugs que je rencontrait avec
 Android studio ( j'ai du le désinstaller et réinstaller 3 fois sur mon ordinateur portable pour qu'au final il ne fonctionne toujours pas, 
 m'obligeant à rester sur mon ordinateur fixe pour pouvoir coder). Ce fut très laborieux.
+
+## Améliorations possible : 
+- Mettre les données en cache
+- Implémentation du onClick 
