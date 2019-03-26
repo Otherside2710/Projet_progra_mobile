@@ -9,6 +9,7 @@ et d'afficher une seconde vue avec des détails sur l'élément de la liste sur 
 - Mise en Place de Recyclerview
 - Utilisation d'une API pour obtenir les données ( disponible sur mon github )
 - Seconde activité
+- Pattern MVC ( modèle , vue, contrôleur)
 
 ## Ce qu'il manque :
 - Prise en compte des Click à l'aide de la méthode onClick ( ce qui bloque l'accès à la seconde activité)
@@ -21,4 +22,4 @@ m'obligeant à rester sur mon ordinateur fixe pour pouvoir coder). Ce fut très 
 
 ## Améliorations possible : 
 - Mettre les données en cache
-- Implémentation du onClick 
+- 
