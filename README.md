@@ -8,6 +8,10 @@ et d'afficher une seconde vue avec des détails sur l'élément de la liste sur 
 ## Ce qui a été réalisé : 
 - Mise en Place de Recyclerview
 - Utilisation d'une API pour obtenir les données ( disponible sur mon github )
+- Seconde activité
+
+## Ce qu'il manque :
+- Prise en compte des Click à l'aide de la méthode onClick ( ce qui bloque l'accès à la seconde activité)
 
 ## Problèmes rencontrés :
 - Durant la réalisation de ce projet j'ai eu beaucoup de problème. 
