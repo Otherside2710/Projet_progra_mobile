@@ -7,6 +7,7 @@ import retrofit2.http.GET;
 
 public interface ApiInterface {
 
-    @GET("Country/")
-    abstract Call<List<Country>> getCountry();
+
+    @GET("7fb43a69129584017d8d2e9c3bb00d8a41b90d0c/")
+    Call<List<Country>> getCountry();
 }

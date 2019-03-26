@@ -6,12 +6,12 @@ public class Country {
 
     @SerializedName("name")
     private String name;
-    @SerializedName("capital")
-    private String capital;
+    @SerializedName(" abbreviation")
+    private String abbreviation;
 
-    public Country(String name, String capital){
+    public Country(String name, String  abbreviation){
         this.name = name;
-        this.capital = capital;
+        this. abbreviation = abbreviation;
     }
 
     public String getName(){
@@ -22,15 +22,15 @@ public class Country {
         this.name = name;
     }
 
-    public String getCapital(){
-        return capital;
+    public String getAbbreviation() {
+        return abbreviation;
     }
 
-    public void setCapital(String capital) {
-        this.capital = capital;
+    public void setAbbreviation(String  abbreviation) {
+        this.abbreviation = abbreviation;
     }
 
     public String toString() {
-        return "Country(" + "name='" + name + '\"' + ", capital='" + capital + '\"' + ')';
+        return "States(" + "name='" + name + '\"' + ", abbreviation='" +  abbreviation + '\'' + ')';
     }
 }

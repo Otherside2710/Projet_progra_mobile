@@ -1,6 +1,7 @@
 package com.example.projet_mobile;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -14,6 +15,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Myview
 
     private Context context;
     private List<Country> countryList;
+
 
     public RecyclerAdapter(Context context, List<Country> countryList){
         this.context = context;
@@ -36,6 +38,33 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Myview
     @Override
     public int getItemCount() {
         return countryList.size();
+    }
+
+
+    class WordViewHolder extends RecyclerView.ViewHolder
+            implements View.OnClickListener {
+        public final TextView CountryItemView;
+        final RecyclerAdapter mAdapter;
+
+        public WordViewHolder(View itemView, RecyclerAdapter adapter) {
+            super(itemView);
+            CountryItemView = itemView.findViewById(R.id.textViewCountryName);
+            this.mAdapter = adapter;
+            itemView.setOnClickListener(this);
+
+        }
+
+        @Override
+        public void onClick(View view) {
+            int mposition = getLayoutPosition();
+
+            Country element = countryList.get(mposition);
+
+            Context context = view.getContext();
+            Intent intent = new Intent(context, Second_Activity.class);
+            context.startActivity(intent);
+            mAdapter.notifyDataSetChanged();
+        }
     }
 
     public class MyviewHolder extends RecyclerView.ViewHolder {
