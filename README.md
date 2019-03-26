@@ -3,6 +3,8 @@
 L'objectif de ce projet était de créer une liste de données provenant d'une API REST ( qui se trouve sur un serveur) 
 et d'afficher une seconde vue avec des détails sur l'élément de la liste sur lequel on a cliqué.
 
+![alt text](http://url/to/img.png)
+
 # Ce qui a été réalisé : 
 - Mise en Place de Recyclerview
 - Utilisation d'une API pour obtenir les données ( disponible sur mon github )
